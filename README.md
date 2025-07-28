@@ -2,6 +2,10 @@
 
 This project demonstrates real-time eye tracking using computer vision techniques to control the mouse cursor based on the movement of eye pupils. It utilizes the MediaPipe library for facial landmark detection and OpenCV for video processing. The mouse cursor is controlled by tracking the average position of both left and right eye pupils, providing accurate and responsive control suitable for users with disabilities.
 
+## Modifications
+
+The original project didn't work, I modified it to run, added some training data, and made it a little better (like averaging out samples to make the cursor movement smoother)
+
 ## Features
 
 - Real-time detection of eye pupils from a video feed.
